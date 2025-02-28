@@ -10,3 +10,17 @@ HP07	Click on "View Products" and verify navigation to products.html	Page should
 HP08	Check if background image is correctly loaded	Background should be visible
 HP09	Verify header text "Furniture Store" is displayed	Header should be visible
 HP10	Ensure responsive design adapts properly	Page should scale correctly
+
+
+2. Login Page Test Cases
+Test Case ID	Test Description	Expected Result
+LP01	Verify the page title is "Login - Furniture Store"	Title should match
+LP02	Check if email input field is present	Field should be visible
+LP03	Check if password input field is present	Field should be visible
+LP04	Check if the "Login" button is present	Button should be visible
+LP05	Enter valid email & password, then click "Login"	Should allow login (if backend exists)
+LP06	Try login with blank fields	Should show validation error
+LP07	Try login with invalid credentials	Should show login failure message
+LP08	Click on "⬅ Back to Home" and verify navigation	Page should return to index.html
+LP09	Check if background image loads properly	Background should be visible
+LP10	Ensure form fields have proper padding & alignment	Fields should be properly aligned
