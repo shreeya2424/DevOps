@@ -1,0 +1,12 @@
+1. Home Page Test Cases
+Test Case ID	Test Description	Expected Result
+HP01	Verify the page title is "Home - Furniture Store"	Title should match
+HP02	Check if the "Login" button is present	Button should be visible
+HP03	Check if the "Register" button is present	Button should be visible
+HP04	Check if the "View Products" button is present	Button should be visible
+HP05	Click on "Login" and verify navigation to login.html	Page should change to login.html
+HP06	Click on "Register" and verify navigation to register.html	Page should change to register.html
+HP07	Click on "View Products" and verify navigation to products.html	Page should change to products.html
+HP08	Check if background image is correctly loaded	Background should be visible
+HP09	Verify header text "Furniture Store" is displayed	Header should be visible
+HP10	Ensure responsive design adapts properly	Page should scale correctly
